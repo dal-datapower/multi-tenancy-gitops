@@ -64,8 +64,6 @@ spec:
     server: https://kubernetes.default.svc
   - namespace: validation-flow
     server: https://kubernetes.default.svc
-  - namespace: ray
-    server: https://kubernetes.default.svc
   clusterResourceWhitelist:
   - group: ""
     kind: Namespace
